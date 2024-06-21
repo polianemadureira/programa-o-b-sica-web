@@ -1,0 +1,20 @@
+/* Definição das cores */
+body {
+    background-color: #f0f0f0; /* Cor de fundo */
+    color: #333333; /* Cor da fonte */
+}
+
+/* Estilização do elemento de destaque */
+.destaque {
+    color: #3498db; /* Cor de destaque */
+}
+
+/* Estilização de links */
+a {
+    color: #3498db; /* Cor dos links */
+    text-decoration: none; /* Remover sublinhado padrão */
+}
+
+a:hover {
+    text-decoration: underline; /* Sublinhado ao passar o mouse */
+}
