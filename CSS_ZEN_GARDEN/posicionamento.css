@@ -62,3 +62,34 @@
 .participacao {
     margin-top: -1px; 
 }
+
+a {
+    color: #ff5733;
+    font-weight: bold; 
+    text-decoration: none; 
+    transition: color 0.3s; 
+}
+
+
+a:hover {
+    color: #ff8c66; 
+}
+
+
+a:visited {
+    font-weight: normal; 
+}
+.principal p:first-of-type:first-letter {
+    font-size: 3em; 
+    font-family: 'Georgia', serif; 
+    float: left; 
+    margin-right: 10px; 
+    line-height: 1; 
+}
+.menu-design li {
+    border-top: 1px solid #ccc; 
+}
+
+.menu-design li:last-child {
+    border-bottom: 1px solid #ccc; 
+}
