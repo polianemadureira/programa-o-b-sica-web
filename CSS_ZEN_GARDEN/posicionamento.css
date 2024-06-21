@@ -1,0 +1,64 @@
+.page-wrapper {
+    position: relative; 
+}
+.explanation {
+    width: 60%; 
+    margin-right: 35%; 
+    border-right: 1px solid #1f295c; 
+    padding-right: 2%; 
+}
+.design-menu {
+    position: absolute; 
+    top: 560px; 
+    left: 62%; 
+    width: 35%; 
+    padding: 0 2%; 
+}
+.principal-footer {
+    display: flex; 
+    justify-content: center; 
+}
+
+.principal-footer a {
+    flex: 1; 
+    text-align: center; 
+    padding: 10px; 
+}
+
+.principal-footer a:not(:last-child) {
+    margin-right: 10px; 
+}
+.beneficios {
+    display: flex; 
+    align-items: center; 
+}
+
+.beneficios-texto {
+    flex: 0 0 70%;
+}
+
+.beneficios-titulo {
+    flex: 0 0 30%; 
+    text-align: right; 
+    padding-left: 20px; 
+}
+.participacao {
+    display: flex; 
+    align-items: center; 
+}
+
+.participacao-item {
+    flex: 1; 
+    text-align: center;
+}
+.beneficios,
+.participacao {
+    border-top: 1px solid #ccc;
+    border-bottom: 1px solid #ccc; 
+    padding: 20px 0; 
+}
+
+
+.participacao {
+    margin-top: -1px; 
+}
