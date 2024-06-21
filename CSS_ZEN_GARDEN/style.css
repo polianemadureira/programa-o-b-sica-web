@@ -1,20 +1,54 @@
-/* Definição das cores */
+
 body {
-    background-color: #f0f0f0; /* Cor de fundo */
-    color: #333333; /* Cor da fonte */
+    background-color: #f0f0f0; 
+    color: #333333; 
 }
 
-/* Estilização do elemento de destaque */
+
 .destaque {
-    color: #3498db; /* Cor de destaque */
+    color: #3498db; 
 }
 
-/* Estilização de links */
 a {
-    color: #3498db; /* Cor dos links */
-    text-decoration: none; /* Remover sublinhado padrão */
+    color: #3498db; 
+    text-decoration: none; 
 }
 
 a:hover {
-    text-decoration: underline; /* Sublinhado ao passar o mouse */
+    text-decoration: underline;
 }
+body {
+    width: 960px; 
+    margin: 0 auto; 
+}
+body {
+    font-family: 'Arial', sans-serif; 
+}
+p {
+    text-indent: 1em; 
+}h1, h2, h3 {
+    text-align: center; 
+    
+}
+
+h1 {
+    font-size: 1.8rem; 
+}
+
+h2 {
+    font-size: 1.4rem; 
+}
+
+h3 {
+    font-size: 1.2rem; 
+}
+.resumo {
+    text-align: center;
+}
+.principal p {
+    line-height: 1.5;
+}
+abbr {
+    font-variant: small-caps; 
+}
+
