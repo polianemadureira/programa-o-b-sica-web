@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Formulário de Pesquisa de Satisfação</title>
+</head>
+<body>
+    <h1>Formulário de Pesquisa de Satisfação</h1>
+    
+    <form action="#" method="post">
+        <!-- Dados Pessoais -->
+        <fieldset>
+            <legend>Dados Pessoais</legend>
+            <label for="nome">Nome:</label>
+            <input type="text" id="nome" name="nome" required><br><br>
+            
+            <label for="email">E-mail:</label>
+            <input type="email" id="email" name="email" required><br><br>
+            
+            <label for="telefone">Telefone:</label>
+            <input type="tel" id="telefone" name="telefone" required><br><br>
+        </fieldset>
+        
+        <br>
+        
+        <!-- Perguntas da Pesquisa -->
+        <fieldset>
+            <legend>Perguntas da Pesquisa</legend>
+            
+            <label>1. Como você avalia o atendimento recebido?</label><br>
+            <input type="radio" id="avaliacao1_otimo" name="avaliacao1" value="ótimo" required>
+            <label for="avaliacao1_otimo">Ótimo</label><br>
+            
+            <input type="radio" id="avaliacao1_bom" name="avaliacao1" value="bom">
+            <label for="avaliacao1_bom">Bom</label><br>
+            
+            <input type="radio" id="avaliacao1_regular" name="avaliacao1" value="regular">
+            <label for="avaliacao1_regular">Regular</label><br>
+            
+            <input type="radio" id="avaliacao1_ruim" name="avaliacao1" value="ruim">
+            <label for="avaliacao1_ruim">Ruim</label><br><br>
+            
+            <label>2. Você recomendaria nossos serviços para amigos ou familiares?</label><br>
+            <input type="radio" id="recomendacao_sim" name="recomendacao" value="sim" required>
+            <label for="recomendacao_sim">Sim</label><br>
+            
+            <input type="radio" id="recomendacao_nao" name="recomendacao" value="não">
+            <label for="recomendacao_nao">Não</label><br><br>
+            
+            <label for="motivo_contato">3. Qual o motivo principal do seu contato?</label><br>
+            <select id="motivo_contato" name="motivo_contato" required>
+                <option value="">Selecione uma opção</option>
+                <option value="Dúvida">Dúvida</option>
+                <option value="Elogio">Elogio</option>
+                <option value="Reclamação">Reclamação</option>
+                <option value="Sugestão">Sugestão</option>
+            </select><br><br>
+            
+            <label for="autorizacao_compartilhamento">
+                <input type="checkbox" id="autorizacao_compartilhamento" name="autorizacao_compartilhamento">
+                Autorizo o compartilhamento das minhas respostas com terceiros.
+            </label><br><br>
+        </fieldset>
+        
+        <br>
+        
+        <!-- Botão de Envio -->
+        <input type="submit" value="Enviar">
+    </form>
+</body>
+</html>
