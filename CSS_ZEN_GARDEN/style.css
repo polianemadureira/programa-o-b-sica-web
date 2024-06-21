@@ -52,3 +52,58 @@ abbr {
     font-variant: small-caps; 
 }
 
+body {
+    width: 80%; 
+    max-width: 1280px; 
+    margin: 0 auto; 
+}
+.intro {
+    height: 550px; 
+}
+#design-archives {
+    display: none; 
+}
+header {
+    background-color: #333333; 
+    color: #ffffff; 
+    padding: 1em; 
+}
+
+header h1, header h2 {
+    display: inline-block; 
+    margin-right: 1em; 
+}
+header {
+    background-color: #333333; 
+    color: #ffffff; 
+    padding: 1em; 
+}
+
+header h1, header h2 {
+    display: inline-block; 
+    margin-right: 1em; 
+}
+header h1 {
+    margin-left: 1em; 
+}
+.menu-lateral {
+    list-style-type: none; 
+}
+
+.menu-superior {
+    list-style-type: none; 
+}
+
+.menu-lateral li, .menu-superior li {
+    margin-bottom: 1em; 
+    text-align: center; 
+}
+footer {
+    padding: 4%; 
+}
+
+footer a {
+    display: inline-block; 
+    border: 2px solid #333333; 
+    padding: 0.5em; 
+}
