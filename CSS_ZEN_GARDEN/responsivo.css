@@ -1,0 +1,39 @@
+@media screen and (max-width: 768px) {
+ 
+    .menu-design {
+        position: static; 
+        width: auto;
+    }
+
+   
+    .div-com-borda {
+        border-right: none;
+    }
+
+  
+    .flex-container {
+        flex-direction: column; 
+    }
+
+   
+    header {
+        height: auto; 
+    }
+
+ 
+    p {
+        margin-top: 0; 
+    }
+}
+@media print {
+   
+    body {
+        font-family: 'Times New Roman', Times, serif;
+    }
+
+   
+    header {
+        background-color: #ffffff; 
+        color: #000000;
+    }
+}
